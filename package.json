@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-guia-hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de NodeJs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develop-erre/guia-hoteles.git"
+  },
+  "author": "Richard Foncea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/develop-erre/guia-hoteles/issues"
+  },
+  "homepage": "https://github.com/develop-erre/guia-hoteles#readme"
+}
