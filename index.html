@@ -8,107 +8,120 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Hello, world!</title>
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-2">Hoteles</h1>
+          <h1 class="display-3">Hoteles</h1>
          </div>
     </div> 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h2>Correo electrónico</h2>
-                <p>Registrate para recibir nuestras ultimas ofertas y descuentos en los mejores hoteles del mundo</p>
-            </div>
-
-            <div class="col-sm">
-                <h2>Promociones</h2>
-                <p>No te pierdas los increibles descuentos y promociones a travéz de nuesta App. la puedes descargar en los formatos de Ios y Android, en sus distintas plataformas</p>
-            </div>
-
+    <div class="d-flex flex-wrap">
+        <div class="col-sm-6">
+            <h2>Correo electrónico</h2>
+            <p>Registrate para recibir nuestras ultimas ofertas y descuentos en los mejores hoteles del mundo</p>
         </div>
+
+        <div class="col-sm-6">
+            <h2>Promociones</h2>
+            <p>No te pierdas los increibles descuentos y promociones a travéz de nuesta App. la puedes descargar en los formatos de Ios y Android, en sus distintas plataformas</p>
+        </div>
+
     </div>
+    
 
     <br>
     
-    <div class="container"> 
-        <div class="row">
-
-            <div class="col-sm-4">
-                <p>Hoteles Sudamericanos dentro de los paises (Chile, Brasil, EE.UU y México).</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <h4>Hotel Primavera</h4>
-                            <p>Ubicación: Chile zona sur</p>
-                            <button type="button" class="btn btn-primary btn-block">Ir a página Web</button>
-                        </div>
-                    
-                        <div class="col-sm">
-                            <h4>Hotel Dreams</h4>
-                            <p>Ubicación: Brasil zona sur Rio de Janeiro</p>
-                            <button type="button" class="btn btn-primary btn-block">Ir a página Web</button>
-                        </div>
-                    </div>
-                </div>
+    <div class="d-flex flex-wrap">
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+                <h4>Hotel Santiago</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, facere.</p>
             </div>
-
-            <div class="col-sm-4">
-                <p>Hoteles Europeos dentro de los paises (España, Alemania, Italia).</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <h4>Hotel Barcelona</h4>
-                            <p>Ubicación: España zona central de Barcelona</p>
-                            <button type="button" class="btn btn-success btn-block">Ir a página Web</button>
-                        </div>
-                    
-                        <div class="col-sm">
-                            <h4>Hotel Alemán</h4>
-                            <p>Ubicación: Alemania zona central de Berlín</p>
-                            <button type="button" class="btn btn-success btn-block">Ir a página Web</button>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <button type="button" class="btn btn-reserva btn-info btn-block">Reservar</button>
             </div>
-
-            <div class="col-sm-4">
-                <p>Hoteles Asiaticos dentro de los paises (Japón, China y Corea del Sur).</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm">
-                            <h4>Hotel Tokio</h4>
-                            <p>Ubicación: Japón</p>
-                            <button type="button" class="btn btn-danger btn-block">Ir a página Web</button>
-                        </div>
-                    
-                        <div class="col-sm">
-                            <h4>Hotel Chino</h4>
-                            <p>Ubicación: China</p>
-                            <button type="button" class="btn btn-danger btn-block">Ir a página Web</button>
-                        </div>
-
-                        <div class="col-sm">
-                            <h4>Hotel Chino</h4>
-                            <p>Ubicación: China</p>
-                            <button type="button" class="btn btn-danger btn-block">Ir a página Web</button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
 
-        </div>
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+                <h4>Hotel Berlín</h4>
+                <p>Lorem ipsum dolor sit amet  elit. Delectus, ratione.</p> 
+            </div>
+            <div>
+                <button type="button" class="btn btn-reserva btn-info btn-block">Reservar</button>
+            </div>
+            </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+                <h4>Hotel Buenos Aires</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, ex voluptate rerum consequatur at libero. Temporibus.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-reserva btn-info btn-block">Reservar</button>
+            </div>
+            </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+                <h4>Hotel Tokio</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-reserva btn-info btn-block">Reservar</button>
+            </div>
+            </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+                <h4>Hotel Shangai</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, commodi! Est dolorum harum quos, nesciunt similique quidem, dolores quisquam a aut doloremque quo expedita, quaerat dolore!</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-reserva btn-info btn-block">Reservar</button>
+            </div>
+            </div>
+
+        <div class="card-hotel d-flex flex-column justify-content-between">
+            <div>
+                <h4>Hotel Madrid</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ex doloremque eligendi voluptatum porro, illum debitis.</p>
+            </div>
+            <div>
+                <button type="button" class="btn btn-reserva btn-info btn-block">Reservar</button>
+            </div>
+            </div>
 
     </div>
 
-    <br>
-    <br>
+    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="http://www.facebok.com" style="color: white;">Facebook</a>
+                <a href="http://www.twitter.com" style="color: white;">Twitter</a>
+                <a href="http://www.instagram.com" style="color: white;">Instagram</a>
+            </div>
+            <div class="col-sm-4 d-flex flex-column">
+                <address>
+                    <p>Santiago, Chile - Avenida Independencia #100</p>
+                    <p>+569-987654321</p>
+                    <P>contacto@gmail.com</P>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="" style="color: white;">Nosotros</a>
+                <a href="" style="color: white;">Precios</a>
+                <a href="" style="color: white;">Términos y condiciones</a>
+                <a href="" style="color: white;">Contacto</a>
+            </div>
+        </div>
+    </footer>
           
        
 
