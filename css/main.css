@@ -22,3 +22,7 @@ footer {
     background-color: #0C4FB0;
     width: 100%;
 }
+
+.footer-address-icon {
+    padding-right: 10px;
+}
