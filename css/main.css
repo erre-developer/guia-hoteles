@@ -22,7 +22,10 @@ footer {
 .btn-reserva {
     background-color: #006d77;
     padding: 2px 0px 2px 0px;
+    margin-top: 5px;
     width: 100%;
+    text-align: center;
+    color: white;
 }
 
 .footer-address-icon {
@@ -32,3 +35,4 @@ footer {
 .tab-content{
     padding-top: 15px;
 }
+
