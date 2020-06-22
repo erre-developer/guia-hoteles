@@ -16,6 +16,7 @@ footer {
     flex: 1 200px;
     padding: 2px 10px 5px 10px; 
     margin-top: 10px;
+    image-resolution: 180px 100px;
 }
 
 .btn-reserva {
