@@ -68,83 +68,120 @@
       </ul>
 
       <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
-            <div class="container table-responsive">
-                <table class="table table-striped">
-                    <thead class="thead-dark">
-                        <th>Calidad</th>
-                        <th>Santiago</th>
-                        <th>Antofagasta</th>
-                        <th>Villarica</th>
-                        <th>Punta Arenas</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class="oi oi-star"></span></td>
-                            <td>$100</td>
-                            <td>$120</td>
-                            <td>$140</td>
-                            <td>$150</td>
-                        </tr>
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$200</td>
-                            <td>$220</td>
-                            <td>$240</td>
-                            <td>$250</td>
-                        </tr>
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$300</td>
-                            <td>$320</td>
-                            <td>$340</td>
-                            <td>$350</td>
-                        </tr>
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$400</td>
-                            <td>$420</td>
-                            <td>$440</td>
-                            <td>$450</td>
-                        </tr>
-                        <tr>
-                            <td><span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span>
-                                <span class="oi oi-star"></span></td>
-                            <td>$500</td>
-                            <td>$520</td>
-                            <td>$540</td>
-                            <td>$550</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                <div class="container table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Santiago</th>
+                            <th>Antofagasta</th>
+                            <th>Villarica</th>
+                            <th>Punta Arenas</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="oi oi-star"></span></td>
+                                <td>$100</td>
+                                <td>$120</td>
+                                <td>$140</td>
+                                <td>$150</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$200</td>
+                                <td>$220</td>
+                                <td>$240</td>
+                                <td>$250</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$300</td>
+                                <td>$320</td>
+                                <td>$340</td>
+                                <td>$350</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$400</td>
+                                <td>$420</td>
+                                <td>$440</td>
+                                <td>$450</td>
+                            </tr>
+                            <tr>
+                                <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                <td>$500</td>
+                                <td>$520</td>
+                                <td>$540</td>
+                                <td>$550</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
 
-          </div>
-
+          <!--Tab-pane tarjetas-->
             <div class="tab-pane fade show table-responsive" id="tarjetas" role="tabpanel" aria-labelledby="compara-tab">
                 <div class="container card ">
-                    <div class="card-header">
-                        Tarjetas Acreditadas
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Paypal</li>
-                        <li class="list-group-item">Tarjetas de Crédito</li>
-                        <li class="list-group-item">Tarjetas de Débito</li>
-                        <li class="list-group-item">Google Pay</li>
-                        <li class="list-group-item">WebPay</li>
-                    </ul>
-                    
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        PayPal
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugiat reiciendis totam illo omnis autem odio suscipit reprehenderit, error vitae?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Tarjetas Débito y Crédito
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, non. Cum, dicta dignissimos itaque magnam maiores reprehenderit quaerat eligendi magni ex tempore numquam earum at distinctio eaque delectus harum incidunt sint pariatur facilis aut veritatis?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Google Pay
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad corporis laborum culpa officiis voluptate quis ut omnis laboriosam commodi. Odio consectetur fugit, odit dicta cumque obcaecati incidunt quibusdam id.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div><!--fin div acordion tarjetas-->
                 </div>
-            </div>
+            </div> <!--fin div tab-pane tarjetas-->
 
             <div class="tab-pane fade show" id="comentarios" role="tabpanel" aria-labelledby="compara-tab">
                 <div class="container">
