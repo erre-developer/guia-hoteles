@@ -5,11 +5,17 @@
 }
 
 footer {
-    padding: 10px 10px 0 10px;
-    background-color: #1D3557;
+    padding: 0px 10px 0 10px;
+    background-color: #414141;
     color: white;
     margin-bottom: 0px;
     margin-top: 20px;
+}
+
+.footer-down{
+    background-color:#414141;
+    color: white;
+    text-align: center;
 }
 
 .card-hotel {
