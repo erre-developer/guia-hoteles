@@ -5,13 +5,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- build:css dist/index.css -->
+        <!-- build:css css/index.css -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
         <!-- endbuild -->
     
-        <title>Hoteles</title>
+        <title>Hoteles del mundo</title>
     </head>
     <body>
         <nav class="navbar navbar-expand-md  navbar-dark bg-dark fixed-top">
@@ -33,7 +33,7 @@
 
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-            <h1 class="display-3">Home - Hoteles</h1>
+            <h1 class="display-3">Hoteles</h1>
             </div>
         </div> 
 
@@ -295,41 +295,11 @@
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <!-- build:js dist/index.js -->
+        <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-        
-        <script>
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip();
-                $('[data-toggle="popover"]').popover();
-            });
-
-            $('.carousel').carousel({
-                interval: 5000 
-            });
-
-            $('#contacto').on('show.bs.modal', function (e) {
-                console.log("El modal contacto se está mostrando");
-                $('#contactoBtnModal').removeClass('btn-outline-success');
-                $('#contactoBtnModal').addClass('btn-info');
-                $('#contactoBtnModal').prop('disabled', true);
-            });
-            $('#contacto').on('shown.bs.modal', function (e) {
-                console.log("El modal contacto sé mostró");
-            });
-            $('#contacto').on('hide.bs.modal', function (e) {
-                console.log("El modal contacto se ocaulta");
-            });
-            $('#contacto').on('hidden.bs.modal', function (e) {
-                console.log("El modal contacto sé ocultó");
-                $('#contactoBtnModal').removeClass('btn-info');
-                $('#contactoBtnModal').addClass('btn-outline-success');
-                $('#contactoBtnModal').prop('disabled', false);
-            });
-        </script>
+        <script src="js/index.js"></script>
         <!-- endbuild -->
     </body>
 </html>

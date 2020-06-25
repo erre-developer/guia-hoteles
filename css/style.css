@@ -1,19 +1,19 @@
 .jumbotron {
-  background-color: #ffffff;
-  color: black;
-  font-family: serif;
+  background-color: #124240;
+  color: white;
+  font-family: helvetica;
   margin-top: 40px;
   margin-bottom: 10px; }
 
 footer {
   padding: 0px 15px 0 10px;
-  background-color: #1413138e;
+  background-color: #094c748e;
   color: white;
   margin-top: 15px;
   margin-bottom: 0px; }
 
 .footer-down {
-  background-color: #1413138e;
+  background-color: #094c748e;
   color: white;
   text-align: center; }
 
@@ -38,3 +38,5 @@ footer {
 
 .tab-content {
   padding-top: 15px; }
+
+/*# sourceMappingURL=style.css.map */
