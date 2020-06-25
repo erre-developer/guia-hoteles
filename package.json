@@ -7,7 +7,13 @@
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -o css/ css/",
-    "watch:scss": "onchange 'css/*.scss' -- npm run build:scss"
+    "start": "concurrently \"npm run watch:scss\" \"npm run dev\"",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* --out-dir dist/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin precios.html -d dist --htmlmin -o dist/precios.html && usemin contacto.html -d dist --htmlmin -o dist/contacto.html && usemin terminos.html -d dist --htmlmin -o dist/terminos.html",
+    "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
+    
   },
   "repository": {
     "type": "git",
@@ -20,15 +26,21 @@
   },
   "homepage": "https://github.com/develop-erre/guia-hoteles#readme",
   "devDependencies": {
+    "copyfiles": "^2.3.0",
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
     "lite-server": "^2.5.4",
     "node-sass": "^4.14.1",
     "onchange": "^7.0.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.4.2",
     "bootstrap": "^4.5.0",
     "bootstrap-icons": "^1.0.0-alpha4",
+    "concurrently": "^5.2.0",
     "jquery": "^3.5.1",
     "less": "^3.11.3",
     "open-iconic": "^1.1.1",

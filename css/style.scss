@@ -1,5 +1,5 @@
-$colorHome: #4c0861;
-$colorFooter : #414141;
+$colorHome: #ffffff;
+$colorFooter : #1413138e;
 @mixin margenes($top, $bottom) {
     margin-top: $top;
     margin-bottom: $bottom;
@@ -7,7 +7,8 @@ $colorFooter : #414141;
 
 .jumbotron {
     background-color: $colorHome;
-    color: rgba(167, 197, 224, 0.904);
+    color: black;
+    font-family: serif;
     @include margenes(40px, 10px);
 }
 
