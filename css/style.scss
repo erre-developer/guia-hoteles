@@ -1,4 +1,4 @@
-$yellow: #def514;
+$colorHome: #4c0861;
 $colorFooter : #414141;
 @mixin margenes($top, $bottom) {
     margin-top: $top;
@@ -6,13 +6,13 @@ $colorFooter : #414141;
 }
 
 .jumbotron {
-    background-color: $yellow;
-    color: white;
-    @include margenes(50px, 10px);
+    background-color: $colorHome;
+    color: rgba(167, 197, 224, 0.904);
+    @include margenes(40px, 10px);
 }
 
 footer {
-    padding: 0px 10px 0 10px;
+    padding: 0px 15px 0 10px;
     background-color: $colorFooter;
     color: white;
     @include margenes(15px, 0px);
@@ -41,7 +41,7 @@ footer {
 }
 
 .footer-address-icon {
-    padding-right: 10px;
+    padding-right: 8px;
 }
 
 .tab-content{
