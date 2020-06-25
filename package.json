@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/develop-erre/guia-hoteles.git"
+    "url": "git+https://github.com/erre-developer/guia-hoteles.git"
   },
   "author": "Richard Foncea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/develop-erre/guia-hoteles/issues"
+    "url": "https://github.com/erre-developer/guia-hoteles/issues"
   },
-  "homepage": "https://github.com/develop-erre/guia-hoteles#readme",
+  "homepage": "https://github.com/erre-developer/guia-hoteles#readme",
   "devDependencies": {
     "copyfiles": "^2.3.0",
     "cssmin": "^0.4.3",
