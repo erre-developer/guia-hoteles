@@ -68,7 +68,7 @@ gulp.task('copyfonts', function (){
 });
 
 //Task Build
-gulp.task('build', gulp.series('clean','imagemin','usemin','copyfonts'));
+gulp.task('build', gulp.series('clean','sass','imagemin','usemin','copyfonts'));
 
 //Task default
 gulp.task('default', gulp.parallel('browser-sync','sass:watch'));

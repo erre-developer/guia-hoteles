@@ -1,20 +1,20 @@
 .jumbotron {
-  background-color: #db880a;
-  color: white;
+  background-color: #fffb05;
+  color: black;
   font-family: helvetica;
   margin-top: 40px;
   margin-bottom: 10px; }
 
 footer {
   padding: 0px 15px 0 10px;
-  background-color: #363621;
-  color: white;
+  background-color: #0a9c00;
+  color: #ad0000;
   margin-top: 15px;
   margin-bottom: 0px; }
 
 .footer-down {
-  background-color: #363621;
-  color: white;
+  background-color: #0a9c00;
+  color: #ad0000;
   text-align: center; }
 
 .card-hotel {

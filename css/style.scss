@@ -1,27 +1,28 @@
-$colorHome: #db880a;
-$colorFooter : #363621;
+$yellow: #fffb05;
+$green : #0a9c00;
+$red : #ad0000;
 @mixin margenes($top, $bottom) {
     margin-top: $top;
     margin-bottom: $bottom;
 }
 
 .jumbotron {
-    background-color: $colorHome;
-    color: rgb(255, 255, 255);
+    background-color: $yellow;
+    color: black;
     font-family: helvetica;
     @include margenes(40px, 10px);
 }
 
 footer {
     padding: 0px 15px 0 10px;
-    background-color: $colorFooter;
-    color: white;
+    background-color: $green;
+    color: $red;
     @include margenes(15px, 0px);
 }
 
 .footer-down{
-    background-color: $colorFooter;
-    color: white;
+    background-color: $green;
+    color: $red;
     text-align: center;
 }
 
